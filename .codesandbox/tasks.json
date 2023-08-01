@@ -1,0 +1,13 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "python -m http.server 8080 --bind 127.0.0.1": {
+      "name": "python -m http.server 8080 --bind 127.0.0.1",
+      "command": "python -m http.server 8080 --bind 127.0.0.1",
+      "runAtStart": true
+    }
+  }
+}
